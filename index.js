@@ -40,7 +40,7 @@ let height = window.innerHeight
 let textSize = 0
 let textCenter = 0
 const letters = []
-const prompt = ['你', '好', '!']
+const prompt = ['H', 'E', 'L', 'L', 'O']
 let runPrompt = true
 
 const resizePage = () => {
@@ -224,7 +224,7 @@ const removeLetters = (value) => {
 }
 
 const onInputChange = () => {
-  const value = input.value === '' ? [] : input.value.toLowerCase().split('')
+  const value = input.value === '' ? [] : input.value.split('')
   addLetters(value)
   removeLetters(value)
   resizeLetters()
