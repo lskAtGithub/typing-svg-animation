@@ -4,7 +4,8 @@
   "description": "一个基于 gsap 的动画， 通过监听输入使用 gsap 绘制的 svg 动画",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
